@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;  
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+    overflow-x: hidden;
+}
+section{
+    padding:32px 9%;
+}
+.heading{
+    text-align: center;
+    font-size: 45px;
+    color: #333;
+    padding: 16px;
+    margin: 32px 0;
+ background: rgba(255,51,153,.05);
+}
+.heading span{
+    color: #e84393;
+}
+.btn{
+    
+  display: inline-block;
+  margin-top: 16px; 
+  border-radius: 80px; 
+  background: #333;
+  color: #fff;
+  padding: 64px 4px; 
+  cursor: pointer;
+  font-size: 27.2px; 
+}
+.btn:hover{
+    background: #e84393;
+}
+
+header{
+
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background: #fff;
+     padding: 32px 9%; 
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1000;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, .1); 
+
+
+}
+.uialogo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+}
+header .logo{
+    
+    font-size: 20px;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: #e84393;
+}
+header .navbar a{
+    font-size:13px ;
+    padding: 0 24px;
+    color:#666;
+}
+
+header .navbar a:hover{
+    color: #e84393;
+}
+
+ .home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(IMG_9041.JPG)no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;  
+ }
+ .home .content{
+    max-width:800px
+ }
+ 
+ .home .content h3{
+    font-size: 55px;
+    color:#333
+ }
+ .home .content span{
+    font-size: 55px;
+    color:#e84393;
+    padding:16px 0;
+    line-height: 1.5;
+ }
+ .home .content p{
+    font-size: 16px;
+    color:#999;
+    padding:16px 0;
+    line-height: 1.5;
+ }
+ .home .scroll-button{
+        padding: 8px;
+        border: none;
+        background-color: #e84393;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 8px;
+    
+}
+.home .scroll-button:hover{
+    color: #e84393;
+}
+.About{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(IMG_9041.JPG)no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed; 
+ }
+ 
+ .About .content h3{
+    font-size: 16px;
+    color:#999;
+    padding:16px 0;
+    line-height: 1.5;}
+
+    .Register{
+        display: absolute;
+        align-items: center;
+        min-height: 80vh;
+        background:url(IMG_9041.JPG)no-repeat;
+        background-size:cover ;
+        background-position: center;
+        background-attachment: fixed;
+        
+     }
+     .Register .content h3{
+        font-size: 16px;
+        color:#999;
+        padding:16px 0;
+        line-height: 1.5;
+    }
+ .registrationForm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;    
+    }
+    
+    .inputGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputGroup label{
+        margin-bottom: 10px;
+    }
+    .inputGroup input{
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+    .registrationForm button{
+        width: 100%;
+        padding: 8px;
+        border: none;
+        background-color: #e84393;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    footer {
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        min-height: 50vh;
+        background:url(IMG_9041.JPG)no-repeat;
+        background-size:cover ;
+        background-position: center;
+        border: 1px solid #ddd; 
+      
+    }
+     
+
+
+    
